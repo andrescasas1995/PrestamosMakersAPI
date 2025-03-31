@@ -1,0 +1,43 @@
+# Archivos binarios y compilados
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+
+# Archivos de configuración de usuario
+.vscode/
+*.suo
+*.user
+*.cache
+*.csproj.user
+
+# Paquetes y dependencias
+packages/
+node_modules/
+wwwroot/lib/
+
+# Configuración de Visual Studio
+*.vs/
+*.vscode/
+*.ide/
+
+# Archivos generados por Entity Framework
+Migrations/
+
+# Configuración de Docker (si usas Docker)
+docker-compose.override.yml
+docker-compose.*
+*.dockerfile
+
+# Secretos de usuario y credenciales
+appsettings.json
+appsettings.Development.json
+secrets.json
+.env
+
+# Publicación y despliegue
+publish/
+logs/
+prestamos-makers-client/
